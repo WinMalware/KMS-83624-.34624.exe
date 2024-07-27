@@ -179,6 +179,7 @@ void HSLtoRGB(float H, float S, float L, BYTE& R, BYTE& G, BYTE& B) {
 //another HSL Function made by ChatGPT
 //------------------------------------//
 //This is Pankoza's Code I take it and modified as my own I will explain it here what i modified pankoza's code or the code i made by myself
+//Some others payloads are made by Null_Y317K Thanks to her
 DWORD WINAPI shader1(LPVOID lpvd)
 {
 	HDC hdc = GetDC(NULL);
